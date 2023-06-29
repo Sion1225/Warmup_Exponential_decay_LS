@@ -23,11 +23,11 @@ max_lr: 0.01, min_lr: 0.001, num_warm: 50, a: 0.1
 
 $step_{now} \leq step_{warmup}$
 
-$$ y=(\max lr/\max step_{warmup})*x $$
+$$ lr=(\max lr/\max step_{warmup})*step_{now} $$
 
 $step_{warmup} < step_{now}$
 
-$$ y=-e^{\alpha(step_{now}-\max step_{warmup})} + \min lr $$
+$$ lr=-e^{\alpha(step_{now}-\max step_{warmup})} + \min lr $$
 
 ### Others
 
