@@ -17,13 +17,14 @@ The rate of convergence from the maximum learning rate to the target learning ra
 ### Graph
 
 ![alt text](https://github.com/Sion1225/Warmup_Exponential_decay_LS/blob/main/0.01_50_0.001.png?raw=true)
+max_lr: 0.01, min_lr: 0.001, num_warm: 50, a: 0.1
 
 ### Function
 
-$x \leq warmup_{step}$
+$step \leq warmup_{step}$
 
 $$ y=(\max lr/\max warmup_{step})*x $$
 
-$warmup_{step} < x$
+$warmup_{step} < step$
 
 $$ y=-e^{\alpha(step-\max warmup_{step})} + \min lr $$
