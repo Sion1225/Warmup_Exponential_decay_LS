@@ -21,13 +21,13 @@ max_lr: 0.01, min_lr: 0.001, num_warm: 50, a: 0.1
 
 ### Function
 
-$step \leq warmup_{step}$
+$step_{now} \leq step_{warmup}$
 
-$$ y=(\max lr/\max warmup_{step})*x $$
+$$ y=(\max lr/\max step_{warmup})*x $$
 
-$warmup_{step} < step$
+$step_{warmup} < step_{now}$
 
-$$ y=-e^{\alpha(step-\max warmup_{step})} + \min lr $$
+$$ y=-e^{\alpha(step_{now}-\max step_{warmup})} + \min lr $$
 
 ### Others
 
@@ -35,4 +35,4 @@ TF_warmup_exponential.py is for Tensorflow.
 
 For Pytorch, I will make it. or welcome for pull request.
 
-contributor Thanks to Gyeonghun Kim
+Contributor: Thanks to Gyeonghun Kim
