@@ -28,3 +28,7 @@ $$ y=(\max lr/\max warmup_{step})*x $$
 $warmup_{step} < step$
 
 $$ y=-e^{\alpha(step-\max warmup_{step})} + \min lr $$
+
+### Others
+
+contributor Thanks to Gyeonghun Kim
