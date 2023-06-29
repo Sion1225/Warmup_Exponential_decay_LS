@@ -31,4 +31,8 @@ $$ y=-e^{\alpha(step-\max warmup_{step})} + \min lr $$
 
 ### Others
 
+TF_warmup_exponential.py is for Tensorflow.
+
+For Pytorch, I will make it. or welcome for pull request.
+
 contributor Thanks to Gyeonghun Kim
