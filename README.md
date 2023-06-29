@@ -6,7 +6,7 @@ It uses a warmup step to quickly adapt to the problem through large-scale learni
 and it can converge to a desired learning rate (target learning rate) through a differentiable function. 
 The rate of convergence from the maximum learning rate to the target learning rate can be adjusted by modulating the exponential function (variable a).
 
-### Variables
+### Variables (Hyper-parameters)
 | Variable | Explain                         |
 |----------|---------------------------------|
 | max_lr   | maximum learning rate (warm-up) |
