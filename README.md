@@ -16,6 +16,8 @@ The rate of convergence from the maximum learning rate to the target learning ra
 
 ### Graph
 
+![alt text](https://github.com/Sion1225/Warmup_Exponential_decay_LS/blob/main/0.01_50_0.001.png?raw=true)
+
 ### Function
 
 $x \leq warmup_{step}$
